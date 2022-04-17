@@ -17,7 +17,7 @@ public class CoursesObjects {
 	private By coursename=By.id("input-courseName");
 	private By acronym=By.id("input-acronym");
 	private By savebtn=By.id("button-save");
-	
+	private By signout=By.id("nav-signout");
 	
 	public WebElement courses_Tab() {
 		
