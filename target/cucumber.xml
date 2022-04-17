@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="25.26">
+    <testcase classname="Dashboard Validation for CollegeBag Application" name="Validate the Dashboard for valid user" time="6.44">
+        <system-out><![CDATA[Given User invoke the chrome browser........................................passed
+And Navigate to the collegeBag Login Page...................................passed
+When User enter "email" and "password" into the fields......................passed
+And Click on Signin Button..................................................passed
+Then Dashboard is displayed for valid users.................................passed
+And students and courses tables are also displayed in Dashboard option......passed
+And User click on signout and close the browser.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses tab validation in CollegeBag Application" name="Validate Courses tab for Valid User" time="5.32">
+        <system-out><![CDATA[Given User invoke the chrome browser........................................passed
+And Navigate to the collegeBag Login Page...................................passed
+When User enter "email" and "password" into the fields......................passed
+And Click on Signin Button..................................................passed
+Then Dashboard is displayed for valid users.................................passed
+When User click on Courses tab on to the page...............................passed
+Then filter box and add button is displayed on the page.....................passed
+And Course name also displayed along with acronym and actions options.......passed
+And User click on signout and close the browser.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses tab validation in CollegeBag Application" name="Validate Add button into courses tab for Valid User" time="3.268">
+        <system-out><![CDATA[Given User invoke the chrome browser........................................passed
+And Navigate to the collegeBag Login Page...................................passed
+When User enter "email" and "password" into the fields......................passed
+And Click on Signin Button..................................................passed
+Then Dashboard is displayed for valid users.................................passed
+When User click on Courses tab on to the page...............................passed
+Then filter box and add button is displayed on the page.....................passed
+When User click on Add button on the page...................................passed
+Then New Courses Page is displayed..........................................passed
+When User enter coursename and acronym into the box.........................passed
+And click on save button....................................................passed
+Then new course should be added into the course list........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Validation for CollegeBag Application" name="Validate Login Page for Valid User" time="5.11">
+        <system-out><![CDATA[Given User invoke the chrome browser........................................passed
+And Navigate to the collegeBag Login Page...................................passed
+When User enter "email" and "password" into the fields......................passed
+And Click on Signin Button..................................................passed
+Then Dashboard is displayed for valid users.................................passed
+And User click on signout and close the browser.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Validation for CollegeBag Application" name="Validate Login Page for Invalid User" time="4.856">
+        <system-out><![CDATA[Given User invoke the chrome browser........................................passed
+And Navigate to the collegeBag Login Page...................................passed
+When User enter email "admin@gmail.com" and password "admin@123" into the fields.passed
+And Click on Signin Button..................................................passed
+Then error message is displayed.............................................passed
+And User close the browser..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

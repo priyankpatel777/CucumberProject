@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-12T16:39:28 BST" name="Default suite" finished-at="2022-04-12T16:39:32 BST" duration-ms="3902">
+    <groups>
+    </groups>
+    <test started-at="2022-04-12T16:39:28 BST" name="Default test" finished-at="2022-04-12T16:39:32 BST" duration-ms="3902">
+      <class name="all_Tests.LoginTestCases">
+        <test-method signature="invoking_Browser()[pri:0, instance:all_Tests.LoginTestCases@194bcebf]" started-at="2022-04-12T16:39:28 BST" name="invoking_Browser" finished-at="2022-04-12T16:39:32 BST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoking_Browser -->
+      </class> <!-- all_Tests.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
